@@ -7,5 +7,7 @@
 
 (require 'evil)
 (evil-mode 1)
+(require 'powerline)
+(powerline-center-evil-theme)
 
 (provide 'init-local)
