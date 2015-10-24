@@ -5,4 +5,7 @@
 
 (set-fontset-font "fontset-default" 'gb18030' ("Microsoft YaHei" . "unicode-bmp"))
 
+(require 'evil)
+(evil-mode 1)
+
 (provide 'init-local)
